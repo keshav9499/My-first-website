@@ -1,54 +1,43 @@
 <!DOCTYPE html>
-<html lang="hi">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Contact Us - Flower Bouquet</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | Blooms & Bouquets</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-<body style="background-color: #ffb6c1;">
+<body>
+    <header class="navbar">
+        <div class="logo">Blooms & <span>Bouquets</span></div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
 
-    <!-- Top Navigation Menu -->
-    <p align="right">
-        <a href="index.html">Home</a> &nbsp;&nbsp;&nbsp;&nbsp;
-        <a href="about.html">About Us</a> &nbsp;&nbsp;&nbsp;&nbsp;
-        <a href="services.html">Services</a> &nbsp;&nbsp;&nbsp;&nbsp;
-        <a href="Blog.html">Blog</a> &nbsp;&nbsp;&nbsp;&nbsp;
-        <strong>Contact Us</strong> 
-    </p>
+    <section class="page-header">
+        <h1>Connect With Us</h1>
+        <p>Want a custom bouquet or planning a premium event? Reach out to our design desk today.</p>
+    </section>
 
-    <hr>
+    <section class="contact-section">
+        <div class="contact-box">
+            <form action="#" method="POST" class="contact-form">
+                <input type="text" placeholder="Your Full Name" required>
+                <input type="email" placeholder="Your Email Address" required>
+                <textarea rows="6" placeholder="Describe your dream bouquet requirements..." required></textarea>
+                <button type="submit" class="btn">Send Inquiry</button>
+            </form>
+        </div>
+    </section>
 
-    <h1>Contact Us</h1>
-    <p>you can contact with us:</p>
-
-    <p>
-        📞 <strong>Phone Number:</strong> +91 9499314930<br>
-        📧 <strong>Email:</strong> keshavkaushik9499@gmail.com<br>
-    </p>
-
-    <hr>
-
-    <h3>Inquiry & Problem Form</h3>
-    
-    <form>
-        <!-- 1. Name Field -->
-        - Enter your name: <input type="text" name="name" placeholder="YOUR NAME"><br><br>
-
-        <!-- 2. City / Address Field -->
-        - Enter your city: <input type="text" name="city" placeholder="CITY"><br><br>
-
-        <!-- 3. Contact Number Field -->
-        - Enter your contact number: <input type="tel" name="phone" placeholder="Mobile No. "><br><br>
-
-        <!-- 4. Gmail / Email Field -->
-        - Enter your Gmail: <input type="email" name="email" placeholder="example@gmail.com"><br><br>
-
-        <!-- 5. Problem / Message Field -->
-        - Enter your problem/requirements:<br>
-        <textarea name="problem" rows="5" cols="40" placeholder="Please describe your problem or requirement, here..........."></textarea><br><br>
-
-        <!-- Submit Button -->
-        <input type="submit" value="Submit Details">
-    </form>
-
+    <footer>
+        <p>&copy; 2026 Blooms & Bouquets. All Rights Reserved.</p>
+    </footer>
 </body>
 </html>
